@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW2</string>
+    <string name="random_img">random_img</string>
+    <string name="generate_random_image">Generate Random Image</string>
+    <string name="submit">SUBMIT</string>
+    <string name="напишите_url_адрес_вашей_картинки">Напишите URL адрес вашей картинки</string>
+    <string name="enter_your_uri">Введите ваш URI</string>
+    <string name="successfully_sent">Successfully sent</string>
+</resources>

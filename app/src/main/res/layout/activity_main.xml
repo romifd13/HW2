@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_nba"
+        style="@style/iv_nba"
+        android:contentDescription="@string/random_img"
+        />
+
+    <EditText
+        android:id="@+id/et_url"
+        style="@style/et_input_img"
+        android:hint="@string/напишите_url_адрес_вашей_картинки"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/btn_style"
+        android:text="@string/submit"/>
+
+    <Button
+        android:id="@+id/btn_magic"
+        style="@style/btn_style"
+        android:text="@string/generate_random_image"/>
+
+</LinearLayout>
